@@ -5,7 +5,9 @@ function NASACard(props) {
   return (
     <div>
       <img src={props.imgUrl} />
-      <p>{props.copyright}</p>
+      <div className="explanation-container">
+        <p className="explanation">{props.explanation}</p>
+      </div>
     </div>
   );
 }

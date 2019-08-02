@@ -12,6 +12,18 @@ code {
     monospace;
 }
 
+.photo-container {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+}
+
+.explanation-container {
+  width: 400px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
 img {
   width: 100%;
 }
